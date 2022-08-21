@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Sobre mi</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav>
+            <h2>Navegación</h2>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./hobbits.html">Pasatiempos</a></li>
+                <li><a href="./education.html">Educación</a></li>
+            </ul>
+        </nav>
+        <!-- Main Section -->
+        <main style="margin-top: 50px;">
+            <!-- Personal Information Section -->
+            <section id="personal-info">
+                <h2>Informacion Personal</h2>
+                <hr>
+                <img src="./assets/img/picture.jpg" style="width: 300px;" alt="Image Profile">
+                <p><strong>Nombre:</strong> Melvin Armando Aguilar Hernandez</p>
+                <p><strong>Fecha de nacimiento:</strong> 2 de diciembre de 2001</p>
+                <p><strong>Edad</strong> 20 años</p>
+                <a href="mailto:00067621@uca.edu.sv">00067621@uca.edu.sv</a>
+            </section>
+            <!-- Comments Section -->
+            <section id="comments" style="margin-top: 50px;">
+                <h2>Envianos tus Comentarios</h2>
+                <hr>
+                <form action="./index.html" method="get">
+                    <div>
+                        <p>Tipo de comentario</p>
+                        <label>
+                            <input type="radio" name="comment-type" value="suggestion" /> Sugerencia
+                        </label>
+                        <label>
+                            <input type="radio" name="comment-type" value="bug" /> Algo no funciona bien
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="comentario" style="display: block;">Comentarios: </label>
+                        <textarea id="comentario" name="comentario" cols="30" rows="5"  style="display: block;"></textarea>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2022 - Melvin Aguilar</p>
+        </footer>         
+    </body>
+</html>
