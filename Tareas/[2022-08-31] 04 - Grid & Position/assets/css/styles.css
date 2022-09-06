@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+  
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body > section {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    background-color: #eeeeee;
+}
+
+.shadow {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 0px 6px rgba(0,0,0,0.23);
+}
+
+.card {
+    width: 600px;
+    height: 250px;
+    padding: 1.5rem;
+
+    border-radius: 1rem;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    position: relative;
+}
+
+
+.item-top {
+    top: -2.3rem;
+}
+
+.item-bottom {
+    bottom: -2.3rem;
+}
+
+.item-left {
+    left: -2.3rem;
+}
+
+.item-right {
+    right: -2.3rem;
+}
+
+.figure-item{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+
+    display: grid;
+
+    grid-template-areas: "it-1 it-2 it-2"
+                         "it-1 it-5 it-3"
+                         "it-4 it-4 it-3";
+    position: absolute;
+}
+
+.item-1 {
+    grid-area: it-1;
+    background-color: #FE2195;
+}
+
+.item-2 {
+    grid-area: it-2;
+    background-color: #DF2046;
+}
+
+.item-3 {
+    grid-area: it-3;
+    background-color: #493C8B;
+}
+
+.item-4 {
+    grid-area: it-4;
+    background-color: #02BEFF;
+}
+
+.item-5 {
+    grid-area: it-5;
+    background-color: #fff;
+}
+
+#icon-2 {
+    transform: scaleX(-1);
+}
+
+#icon-3 {
+    transform: scaleY(-1);
+}
+
+#icon-4 {
+    transform: scaleX(-1) scaleY(-1);
+}
