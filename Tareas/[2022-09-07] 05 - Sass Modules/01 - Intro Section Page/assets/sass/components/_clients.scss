@@ -1,0 +1,4 @@
+.client {
+    @include flex(row, true);
+    justify-content: space-evenly;
+}

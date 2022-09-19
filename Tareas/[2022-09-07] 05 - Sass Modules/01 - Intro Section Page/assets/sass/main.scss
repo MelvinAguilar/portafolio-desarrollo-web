@@ -1,0 +1,16 @@
+@import "variables";
+
+/* Mixins */
+@import "mixins";
+
+/* Reset */
+@import "base/reset";
+@import "base/page";
+
+/* Secciones */
+@import "layouts/main-container";
+@import "layouts/header";
+@import "layouts/footer";
+
+@import "components/button";
+@import "components/clients"

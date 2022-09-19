@@ -1,0 +1,53 @@
+body > header {
+    
+    width: 90%;
+    margin: auto;
+    height: 6rem;
+
+    > .header-container {
+        width: 100%;
+        height: 100%;
+        
+        @include flex(row, true, 5rem);
+        justify-content: space-between;
+        
+        .header-logo {
+            width: 10rem;
+            height: 2rem;
+
+            img {
+                @include fluid-img();
+            }
+        }
+
+        .header-menu {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+            .header-nav > ul {
+                @include flex(row, true, 3rem);
+                height: 100%;
+                list-style: none;
+
+                li {
+                    display: block;
+                }
+            }
+
+            .header-signin {
+                @include flex(row, true, 3rem);
+            }
+
+            a {
+                text-decoration: none;
+                color: $theme-heading-color;
+
+                &:hover {
+                    color: $theme-text-color;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+main > .information {
+    @include flex(row, true);
+    
+    .main-container {
+        width: 75%;
+        min-height: 75vh;
+        @include flex(row, true, 3rem);
+        flex-wrap: wrap;
+
+        .main-content {
+            flex: 1 0 200px;
+            padding: 1rem 2rem;
+
+            h1 {
+                font-size: 3.5rem;
+                font-weight: 900; 
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-bottom: 2rem;
+            }
+
+            button {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .main-image {
+            flex: 1 0 200px;
+            
+            img {
+                @include fluid-img;
+                max-height: 75vh;
+            }
+        }
+    }
+}
