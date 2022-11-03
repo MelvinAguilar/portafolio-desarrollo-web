@@ -1,0 +1,20 @@
+.card-btn {
+    background-color: #dae1e7;
+    box-shadow: 0 5px 0 #9facb8;
+    color: black;
+    width: 150px;
+    border: none;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    justify-content: end;
+}
+
+.card-btn:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
