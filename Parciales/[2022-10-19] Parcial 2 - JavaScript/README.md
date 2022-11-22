@@ -228,12 +228,12 @@ Estas pueden ser encontradas en el directorio *images* dentro de *assets*
 
 ### PC Render
 
-![PC Render](./results/PC_render.png)
+![PC Render](./results/PC_render.jpg)
 
 ### Tablet Render
 
-![PC Render](./results/Tablet_render.png)
+![PC Render](./results/Tablet_render.jpg)
 
 ### Phone Render
 
-![PC Render](./results/Mobile_render.png)
+![PC Render](./results/Mobile_render.jpg)
