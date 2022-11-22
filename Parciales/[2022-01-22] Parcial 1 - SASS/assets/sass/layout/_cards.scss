@@ -1,0 +1,73 @@
+
+#tweets-section{
+    background-color: $theme-background-color-alt-dark;
+    > .side-text{
+        align-self: flex-start;
+        font-family: $theme-text-montserrat-font;
+        margin: 0 3rem;
+        font-weight: 600;
+        > hr{
+            background: $theme-text-color;
+            width: 50%;        
+        }
+        > h2{
+            font-family: $theme-text-montserrat-font;
+            margin: 2rem 3rem;
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+    }
+    > .container{
+        font-family: $theme-text-roboto-font;
+        @include flex(row, false);
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        padding-bottom: 2%;
+        overflow-x: scroll;
+        max-width: 100%;
+        > article{
+            @include flex(column, false);
+            min-width: 25rem;
+            height: 25rem;
+            padding: 2rem;
+            background-color: $theme-background-color;
+            border-radius: 1rem;
+            border-top: 0.5rem solid $theme-color-accent;
+            box-shadow: $theme-box-shadow;
+            text-align: justify; 
+            padding: 2% 1% 2% 2%; 
+
+            > p{
+                padding-right: 2%;
+                overflow-y: scroll;
+            }
+            > div{
+                align-items: center;
+                justify-content: flex-end;
+                > div {
+                    text-align: right;
+                    > h3, p{
+                        font-family: $theme-text-montserrat-font;
+                        font-size: small;
+                    }
+                    > h3{
+                        font-size: 1.1rem;
+                        font-weight: 600;
+                    }
+                    > p{
+                        color: $theme-text-color
+                    }
+
+                }
+                @include flex(row, false);
+                > figure > img{
+                    width: 4rem;
+                }
+            }
+        }
+    }
+
+}

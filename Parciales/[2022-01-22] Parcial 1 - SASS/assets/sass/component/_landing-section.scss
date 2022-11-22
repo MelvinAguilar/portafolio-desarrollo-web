@@ -1,0 +1,39 @@
+body > #landing-section {
+    background-color: $theme-color-primary;
+    color: $theme-background-color;
+
+    padding: 3rem;
+
+    @include flex(row, false);
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    .side-text {
+        flex: 1 1 400px;
+
+        @include flex(column, false);
+        justify-content: space-around;
+    }
+
+    .side-image {
+        flex: 1 1 400px;
+        border-radius: 2rem 2rem 2rem 0;
+        overflow: hidden;
+        background-color: red;
+    }
+
+    img {
+        @include img-fluid();
+        object-fit: cover;
+    }
+    
+    p {
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+    }
+}

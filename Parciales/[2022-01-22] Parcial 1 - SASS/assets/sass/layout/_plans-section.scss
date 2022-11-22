@@ -1,0 +1,67 @@
+
+#plans-section{
+    @include flex(column);
+    background-color: ($theme-background-color-alt-dark);
+    min-height: 100vh;
+    padding: 3rem;
+    color: $theme-heading-color;
+
+    h3 {
+        font-family: $theme-text-montserrat-font;
+        font-size: 1rem;
+    }
+
+    a{
+        background-color: transparent;
+        border: 1px solid $theme-color-accent;
+        padding: 0.6rem 1.3rem;
+        color: $theme-color-accent;
+        
+    }
+
+    > article {
+        > hr {
+            border-color: $theme-color-accent-alt-light;
+        }
+        > h2 {
+            font-family: $theme-text-montserrat-font;
+            font-size: 2.6rem;
+            font-weight: 500;
+        }
+    }
+
+    > .container {
+        @include flex(row, true);
+        gap: 1.5rem;
+        flex-wrap: wrap;
+
+        > article:nth-child(even){
+            background-color: $theme-color-accent;
+            color: $theme-text-color-alt;
+
+            a{
+                border: 1px solid $theme-background-color;
+                color: $theme-background-color;
+            }
+        }    
+
+        > article{
+            @include flex(column, true);
+            gap: 2rem;
+            flex-basis: 23rem;
+            padding: 2rem;
+            
+            border-radius: 1rem;
+            box-shadow:  $theme-box-shadow;
+            background-color: $theme-background-color;
+            font-family: $theme-text-roboto-font;
+            color: $theme-text-color;
+
+            > .plan-price{
+                font-size: 2rem;   
+            }
+        }
+        
+    }
+
+}

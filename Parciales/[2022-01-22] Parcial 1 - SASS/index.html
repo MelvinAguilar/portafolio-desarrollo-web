@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google fonts imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title> Dev Spaces </title>
+</head>
+<body>
+  <header>
+    <div id="logo-container">
+      <figure id="hamburger">
+        <img src="./assets/images/hamburger.png" alt="Menu button">
+      </figure>
+  
+      <figure id="logo">
+        <img src="./assets/images/logo_main.png" alt="Web Logo">
+      </figure>
+    </div>
+  
+    <h1>
+      Dev Space
+    </h1>
+
+<nav>
+      <ul>
+        <li><a href="#"> How We Work </a></li>
+        <li><a href="#"> Inner Blog </a></li>
+        <li><a href="#"> Account </a></li>
+        <li class="btn"> <a href="#"> View Plans </a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="landing-section">
+    <div class="side-text">
+      <hr>
+      <h2> Boosting your productivity. </h2>
+      
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum tenetur reiciendis tempore aut quo aliquid cumque eius tempora minima dolorum nam, harum deleniti cupiditate officia exercitationem sunt unde adipisci temporibus laudantium at quibusdam? Praesentium sit explicabo, dicta excepturi voluptates ducimus cum, vero corporis laudantium, iusto voluptatum qui reprehenderit doloremque consequatur eos aliquam ut exercitationem? Quisquam voluptatibus id quam alias a.
+      </p>
+
+      <a class="btn light" href="#">
+        View Plans
+      </a>
+    </div>
+
+    <figure class="side-image">
+      <img src="./assets/images/banner.jpg" alt="Main Banner">
+    </figure>
+  </section>
+
+  <section id="spaces-section">
+    <div class="container">
+   <!--  (art.space-card>((fig>img)+(h3>{ Title $$ })+(p>lorem15)+(a>{ Get Stared })))*6 -->
+      <article id="spaces-title" class="space-card">
+        <h2>
+          Check out our spaces to live in community
+        </h2>
+      </article>
+      <article class="space-card">
+        <figure>
+          <img src="./assets/images/space_01.png" alt="">
+        </figure>
+        <h3> Software Engineering </h3>
+        <p>
+          Cumque, temporibus velit nam tempora tempore a laudantium delectus beatae! Suscipit laboriosam ipsum ab autem?
+        </p>
+        <a href="#"> Get Stared </a>
+      </article>
+      
+      <article class="space-card">
+        <figure>
+          <img src="./assets/images/space_02.png" alt="">
+        </figure>
+        <h3> Cybersecurity </h3>
+        <p>
+          Natus, tempore rem. Eius, facilis ad ratione magni explicabo nostrum molestias vel quas molestiae dolorem.
+        </p>
+        <a href="#"> Get Stared </a>
+      </article>
+      
+      <article class="space-card">
+        <figure>
+          <img src="./assets/images/space_03.png" alt="">
+        </figure>
+        <h3> Change it! </h3>
+        <p>
+          Porro ipsa modi eos facere aut accusamus possimus? Commodi non soluta amet quo incidunt a!
+        </p>
+        <a href="#"> Get Stared </a>
+      </article>
+      
+      <article class="space-card">
+        <figure>
+          <img src="./assets/images/space_04.png" alt="">
+        </figure>
+        <h3> Community center </h3>
+        <p>
+          Qui corrupti soluta dolorum, nemo aut illo praesentium. Obcaecati exercitationem, quae in ad expedita blanditiis?
+        </p>
+        <a href="#"> Get Stared </a>
+      </article>
+      
+      <article class="space-card">
+        <figure>
+          <img src="./assets/images/space_05.png" alt="">
+        </figure>
+        <h3> Brian storms </h3>
+        <p>
+          Fugiat sed illum inventore, autem modi veritatis ut quo labore laboriosam nisi animi eius sequi.
+        </p>
+        <a href="#"> Get Stared </a>
+      </article>
+    </div>
+  </section>
+  
+<section id="plans-section">
+    <article class="side-text">
+      <hr>
+      <h2>
+        Membership plans
+      </h2>
+    </article>
+
+    <section class="container">
+  <!--  (art.plan-card>((h3>{ Title $$ })+(span.plan-price>{\$$$.$$})+(span.plan-price-desc>lorem5)+(ul>(li>lorem5)*3)+(a>{Try it now})))*3 -->
+      <article class="plan-card">
+        <h3> Alone in the dark </h3>
+        <span class="plan-price">$9.99</span>
+        <span class="plan-price-desc">Per user, billed monthly.</span>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <a class="btn" href="#">Try it now</a>
+      </article>
+
+      <article class="plan-card starred">
+        <h3> Loneliness Master </h3>
+        <span class="plan-price">$99.99</span>
+        <span class="plan-price-desc">Per user, billed yearly.</span>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <a class="btn light" href="#">Try it now</a>
+      </article>
+
+      <article class="plan-card">
+        <h3> Not alone </h3>
+        <span class="plan-price">$200.00</span>
+        <span class="plan-price-desc">Up to 5 users, billed yearly.</span>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <a class="btn" href="#">Try it now</a>
+      </article>
+    </section>
+  </section>
+
+ <!-- Countdown section -->
+
+  <section id="timer-section">
+    <article class="side-text">
+      <hr align="left">
+      <h2> We will be with you soon</h2>
+    </article>
+
+    <div class="timer">
+      <div class="timer-part">
+        <span>30</span>
+        <hr>
+        <span class="sp2"> Days </span>
+      </div>
+      <div class="timer-part">
+        <span>15</span>
+        <hr>
+        <span class="sp2"> Hours </span>
+      </div>
+      <div class="timer-part">
+        <span>35</span>
+        <hr>
+        <span class="sp2"> Minutes </span>
+      </div>
+      <div class="timer-part">
+        <span>08</span>
+        <hr>
+        <span class="sp2"> Seconds </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="tweets-section">
+    <article class="side-text">
+      <hr>
+      <h2> Our community </h2>
+    </article>
+
+    <div class="container">
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi voluptatem repudiandae tenetur, laborum possimus eius ad aliquam quis quaerat labore eligendi natus, harum pariatur. Nulla quo reiciendis facere voluptatibus nihil exercitationem sed voluptate ducimus maxime nostrum quisquam debitis laudantium corrupti sequi, molestias repellat iure similique impedit. A, ex omnis? Harum asperiores non repudiandae quos nulla impedit consequuntur dignissimos iste odio!
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 01 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/01.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quod animi, ipsam dolorem expedita molestiae modi pariatur, culpa, iusto ipsa maiores beatae. Aut veniam esse eaque modi quis ea unde maiores natus nesciunt facere officia corporis voluptas, rerum, fugit dolore repudiandae nemo culpa quos alias! Dignissimos, voluptas itaque quisquam quia aperiam natus dolorem cum ratione repellat suscipit. Corporis, recusandae voluptatibus.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 02 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/02.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque omnis facilis repudiandae, sed perferendis dolores voluptate. Tempore, aperiam cumque nihil, animi perferendis inventore eligendi eum deleniti fugiat quod quasi, quae eius nemo dignissimos repellendus distinctio nobis quia consequuntur? Rem ipsa perspiciatis at eligendi perferendis. Similique voluptate totam dolorum error esse delectus atque harum illo, suscipit sit beatae neque eos labore.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 03 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/03.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sunt totam fugit assumenda, incidunt quidem sed nihil? Harum quibusdam possimus sed alias voluptatem maiores ea numquam beatae, provident atque voluptatibus assumenda repudiandae, corrupti pariatur natus nam tempore quia deleniti, aspernatur deserunt a aperiam? Error pariatur deleniti nisi, quaerat doloribus aliquid quibusdam aut enim possimus repellendus, blanditiis animi id molestiae magni?
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 04 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/04.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur animi fugit dicta quod. Porro praesentium sed corrupti suscipit accusamus asperiores magnam dolorem reprehenderit laboriosam, minima esse ab nobis quam veniam, deleniti alias aspernatur impedit repudiandae est, odit dolores officiis blanditiis. Perspiciatis odio voluptatibus, nobis cumque ullam maxime molestiae quis atque quo rem est dolores quaerat accusamus temporibus cupiditate. Tempore, nesciunt?
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 05 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/05.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, earum dolorem nesciunt amet culpa provident necessitatibus? Vitae, reiciendis sint. Ea delectus ad adipisci iusto consequatur, fugiat repudiandae necessitatibus voluptatibus, asperiores sit sequi tenetur odit labore dolores culpa quod magnam ducimus distinctio amet tempore aut voluptatum magni recusandae! Consequatur aperiam sint amet at minima iste ratione eveniet eaque, inventore, quis quam!
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 06 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/06.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis qui incidunt obcaecati laudantium voluptatibus, nisi quas deleniti doloremque error, minus ratione eveniet velit suscipit minima iste adipisci vero voluptates unde. Asperiores illum recusandae nihil quis officia repellat at odio rerum. Tenetur quaerat est ea dolore voluptates suscipit vitae modi, in quas animi nesciunt iusto quia quam, assumenda harum nulla?
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 07 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/07.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit maxime distinctio aliquid necessitatibus earum voluptates asperiores doloribus aspernatur minima, reprehenderit ullam eius officia est ratione laboriosam suscipit doloremque beatae, cum iusto, totam dignissimos. Voluptatum doloremque ullam harum rem vitae modi illum beatae architecto consequuntur, omnis reiciendis fuga vel porro dolorem maiores nesciunt asperiores eum accusantium numquam tempora ducimus dolore soluta?
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 08 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/08.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur in incidunt reprehenderit. Odio tempore illum officiis sapiente, voluptate quos dolorum, esse ipsam eligendi facilis autem soluta aliquid sequi ducimus eveniet dignissimos et nam, saepe ex ad enim? Ut aut dolores ratione, dicta officia tenetur! Sunt enim maiores fugit eligendi molestias, minima reiciendis ipsa asperiores quos ipsam cupiditate quaerat repudiandae non.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 09 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/09.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium est, odio adipisci quam consequuntur distinctio aliquam reiciendis architecto in. Odit corrupti ipsum suscipit dolore deserunt labore, earum provident possimus illum voluptatum quaerat repellendus quia error libero. Possimus sit soluta eos alias quia aliquid et aliquam vero voluptate facere dicta laudantium suscipit magni, perspiciatis veritatis voluptas minus hic fuga reprehenderit quos.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 10 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/10.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, totam vero? Laboriosam nulla corrupti magnam eum, omnis minima repellendus ducimus! Sunt ex modi aperiam ab. Nulla tenetur dolores maxime asperiores pariatur aliquid libero in quas a voluptatem? Vitae non adipisci, necessitatibus corporis numquam ipsam recusandae totam maiores! Tempora, et mollitia nemo ipsa explicabo obcaecati, quisquam totam sint ratione ullam debitis.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 11 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/11.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt provident corrupti qui sunt perferendis iure nobis veniam vitae explicabo beatae, facilis distinctio necessitatibus accusantium voluptatem tenetur voluptatibus similique ducimus suscipit! Quis dolor facilis eius! Eum odit molestiae beatae praesentium tempora officia modi, aut dolorum nisi blanditiis tempore, eligendi doloremque distinctio, a aperiam iste officiis eveniet ex omnis nostrum voluptate.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 12 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/12.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto inventore doloribus eveniet excepturi, ea cum? Aliquam facere explicabo debitis. Incidunt earum, natus suscipit, delectus tempora optio adipisci accusantium et dolores doloremque deleniti asperiores fugiat blanditiis facilis nam enim error unde esse minus aliquam. Voluptatibus nostrum distinctio magni earum laborum aliquam, tempore temporibus expedita voluptas culpa consequuntur accusantium corrupti explicabo?
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 13 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/13.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo nisi maiores ab aut laudantium blanditiis, iusto unde corrupti voluptatem incidunt numquam debitis dolorum commodi atque necessitatibus repellat, quasi temporibus aperiam rerum earum? Velit dicta tempora quae ipsum sapiente dolore voluptate maxime, similique laudantium beatae cum molestias? Eaque voluptatem quis magni eius odio repudiandae labore! Dignissimos officiis corrupti facilis reprehenderit hic.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 14 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/14.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+
+      <article class="tweet-card">
+        <p> 
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis voluptatibus perferendis praesentium sapiente iste soluta. Facere temporibus omnis neque, nihil, vel nam libero cumque ratione minima consequuntur error at quod unde, alias sapiente! Maiores tempora sed, quidem reiciendis repellendus qui porro asperiores sunt. Est necessitatibus a sed laborum fugiat quis adipisci, natus quidem nihil fuga quibusdam corporis nobis ducimus facere.
+        </p>
+        <div class="user-info">
+          <div class="user-data">
+            <h3> Member 15 </h3>
+            <p> CEO of Dev Space </p>
+          </div>
+          <figure>
+            <img src=https://avatars.dicebear.com/api/micah/15.svg alt="Avatar">
+          </figure>
+        </div>
+      </article>
+    </div>
+
+<div id="join-us-form">
+      <h3>
+        Join our mail spam
+      </h3>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure doloremque itaque aliquid debitis aspernatur eveniet id voluptas adipisci impedit?
+      </p>
+
+      <div class="join-us-input-container">
+        <input type="text" placeholder="example@example.com">
+        <button class="btn light">
+          Get spammed for free
+        </button>
+      </div>
+    </div>
+  </section> 
+ 
+
+  <script>
+    const setDataScroll = () => {
+      document.querySelector("header").dataset.scroll = window.scrollY;
+    }
+
+    document.addEventListener("scroll", setDataScroll);
+    setDataScroll();
+  </script>
+</body>
+</html>
