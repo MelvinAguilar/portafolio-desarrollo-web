@@ -1,0 +1,33 @@
+.section {
+    &__subtitle {
+        display: block;
+        
+        background-color: $theme-accent-color;
+        color: $theme-light-color;
+        font-family: $theme-tittle;
+        margin-block: 3rem;
+        
+        max-width: 100%;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    &__content {
+        @include flex;
+        gap: 1rem;
+        font-family: $theme-label;
+
+        @include media-breakpoint-up(1000px) {
+            flex-direction: row;
+            justify-content: normal;
+            align-items: flex-start;
+        }
+    }
+}
+
+.cards {
+    @include flex(row);
+    flex-wrap: wrap;
+    gap: 16px;
+}

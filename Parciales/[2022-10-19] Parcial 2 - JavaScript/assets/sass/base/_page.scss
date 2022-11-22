@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    background-color: $theme-white-color;
+}
+
+main {
+    padding-inline: 4vw;
+    padding-block: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}

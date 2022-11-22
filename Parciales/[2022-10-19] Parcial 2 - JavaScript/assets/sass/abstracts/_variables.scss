@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Space+Mono:wght@400;700&display=swap');
+
+$theme-primary-color: #222831;
+$theme-primary-color-alt: #393e46;
+$theme-secondary-color: #495c83;
+$theme-secondary-color-alt: #7a86b6;
+$theme-accent-color: #d1274b;
+$theme-accent-color-alt: #d1274b;
+$theme-background-color: #eee;
+$theme-light-color: #fff4e4;
+$theme-dark-color: #222831;
+$theme-white-color: hsl(0, 0%, 100%);
+
+/*fonts GENERAL */
+$theme-display: 'Bebas Neue', cursive; /* este es la del titulo del inicio*/
+$theme-headline: 'Space Mono', monospace; /* esta donde estan los botones del inio  */ 
+$theme-tittle: 'Montserrat', sans-serif;
+$theme-label: 'Roboto', sans-serif;
+$theme-body: 'Roboto', sans-serif;
+
+// Transition
+$theme-transition: 0.2s ease-in-out;
+
+// Breakpoints
+$screen-sm: 576px; // Large smartphones
+$screen-md: 768px; // Small tablets
+$screen-lg: 992px; // Tablets
+$screen-xl: 1200px; // Desktops
+$screen-xxl: 1440px; // Large desktops
+$screen-rwd: 405px; // Custom device
+
+// Border shadow
+$theme-box-shadow: 0 0.063rem 0.188rem rgba($theme-dark-color, 0.12),
+    0 0.063rem 0.125rem rgba($theme-dark-color, 0.24);
+$theme-box-shadow-hover: 0 0.875rem 1.75rem rgba($theme-dark-color, 0.25), 
+    0 0.625rem 0.625rem rgba($theme-dark-color, 0.22);

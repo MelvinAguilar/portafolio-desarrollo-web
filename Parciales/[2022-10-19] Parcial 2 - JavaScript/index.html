@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic: The Gathering</title>
+
+    <script src="./assets/js/main.js"></script>
+    <link rel="icon" href="./assets/images/logo.svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/js/main.js">
+ 
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Where the magic begins</h1>
+        <div class="header__buttons">
+            <a href="#draft-section-header" class="btn btn__primary">Booster Draft</a>
+            <a href="#deck-section-header" class="btn btn__primary">Check my Deck</a>
+        </div>
+    </header>
+    <aside class="heartbeat">
+        <div class="heart"></div>
+    </aside>
+    <main>
+        <section class="section-draft">
+            <h2 class="section__subtitle" id="draft-section-header">Booster Draft</h2>
+            <div class="section__content">
+                <div class="card-controls">
+                    <h3 class="card-controls__title">Controls</h3>
+                    <p>
+                        Boosters Fetched: <span class="card-controls__number" id = "control-number">001</span>
+                    </p>
+                    <div class="card-controls__buttons">
+                        <button class="btn btn__secondary">Get new Booster</button>
+                        <button class="btn btn__secondary">Save All Cards</button>
+                        <button class="btn btn__secondary">Clear data</button>
+                    </div>
+                </div>
+                <div id="booster-cards" class="cards">
+                    <!-- CARD GOES HERE -->
+                </div>
+            </div>
+        </section>
+        <section class="section-deck">
+            <h2 class="section__subtitle" id="deck-section-header">Deck</h2>
+            <div class="section__content">
+                <div class="card-controls">
+                    <h3 class="card-controls__title">Actions</h3>
+                    <div class="card-controls__buttons">
+                        <button class="btn btn__secondary">Save Deck</button>
+                        <button class="btn btn__secondary">Load Deck</button>
+                        <button class="btn btn__secondary">Clear Deck</button>
+                    </div>
+                </div>
+                <div id="deck-cards" class="cards">
+                    <!-- Generado en JS -->
+                    <h3 class="cards__title">Sorry :( You don't have cards in your deck</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

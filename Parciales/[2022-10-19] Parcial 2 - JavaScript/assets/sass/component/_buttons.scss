@@ -1,0 +1,28 @@
+.btn {
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0.063rem 0.188rem rgba(0, 37, 46, 0.12), 0 0.063rem 0.125rem rgba(0, 37, 46, 0.24);
+    background-color: $theme-accent-color;
+    color: $theme-light-color;
+    transition: $theme-transition;
+
+    min-height: 2.5rem;
+    padding-inline: 1rem;
+    
+    &__primary {
+        padding-top: 0.3rem;
+        border-radius: 0 0.4rem;
+        display: block;
+        text-decoration: none;
+    }
+    
+    &__secondary{
+        border-radius: 0.4rem 0;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        background-color: lighten($theme-accent-color, 14);
+    }
+}
